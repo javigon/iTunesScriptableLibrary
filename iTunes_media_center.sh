@@ -1,5 +1,10 @@
 #!/bin/bash
-
+#
+# Copyright (C) Javier González (javier@javigon.com)
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License version 2 as
+# published by the Free Software Foundation
+#
 # Arguments:
 #	$1: Action - possibilities underneath
 #	$2: Path to local iTunes library
