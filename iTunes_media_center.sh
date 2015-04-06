@@ -103,7 +103,11 @@ then
 		mkdir $NAS_LIBS
 	fi
 
-	mv $ITUNES_FOLDER_PATH/ $NAS_LIBS/
-
+	mv $ITUNES_FOLDER_PATH/sentinel $NAS_LIBS/sentinel_local
+	mv $ITUNES_FOLDER_PATH/iTunes\ Library.itl $NAS_LIBS/itunes_library_nas.itl
+	mv $ITUNES_FOLDER_PATH/iTunes\ Library.xml $NAS_LIBS/itunes_library_nas.xml
+	mv $ITUNES_FOLDER_PATH/iTunes\ Music\ Library.xml $NAS_LIBS/itunes_music_library_nas.xml
+	mv $ITUNES_FOLDER_PATH/iTunes\ Library\ Extras.itdb $NAS_LIBS/itunes_library_extras_nas.itdb
+	mv $ITUNES_FOLDER_PATH/iTunes\ Library\ Genius.itdb $NAS_LIBS/itunes_library_genius_nas.itdb
 fi
 open $ITUNES_APP_PATH
